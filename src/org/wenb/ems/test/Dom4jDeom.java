@@ -37,7 +37,7 @@ package org.wenb.ems.test;
 	        // TODO Auto-generated method stub  
 	        for (Iterator<Attribute> j = root.attributeIterator(); j.hasNext();) {  
 	            Attribute attr = j.next();  
-	            System.out.println(attr.getName()+ " " + attr.getValue() + " " + attr.getPath(root));  
+	            System.out.println(attr.getName()+ " " + attr.getValue() + " " + attr.getNodeType() + " " + attr.getNodeTypeName());  
 	        }  
 	    }  
 	}  
